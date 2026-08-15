@@ -1,3 +1,4 @@
+from pathlib import Path
 
 import streamlit as st
 import torch
@@ -129,7 +130,7 @@ DEVICE = torch.device(
     "cuda" if torch.cuda.is_available() else "cpu"
 )
 
-MODEL_PATH = "/content/final_model/dental_caries_unet_final.pth"
+MODEL_PATH = Path(__file__).parent / "dental_caries_unet_final.pth"
 
 @st.cache_resource
 def load_model():
