@@ -1,0 +1,21 @@
+FINAL DENTAL CARIES REPORT
+============================================================
+
+Threshold: 0.8
+Total image pixels: 589,824
+Predicted caries pixels: 4,499
+Total caries area: 0.7628%
+Detected regions: 1
+
+INDIVIDUAL REGIONS
+------------------------------------------------------------
+Region 01 | Pixels: 4,499 | Area: 0.7628% | Location: (376, 340) | Size: 90x79
+
+MODEL PERFORMANCE
+------------------------------------------------------------
+Precision: 92.57%
+Recall: 80.62%
+F1 / Dice: 86.18%
+IoU: 75.72%
+
+AI-assisted result. Requires professional dental review.
